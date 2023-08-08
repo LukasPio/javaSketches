@@ -12,7 +12,7 @@ public class Anime1 {
     private int[] episodios;
 
     {
-        System.out.println("\nDentro do bloco de inicialização");
+        System.out.println("Dentro do bloco de inicialização");
         this.episodios = new int[100];
 
         for (int i = 0; i < this.episodios.length; i++) {
