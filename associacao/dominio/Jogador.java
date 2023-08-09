@@ -25,8 +25,6 @@ public class Jogador {
         }
     }
 
-
-
     public String getNome() {
         return nome;
     }
