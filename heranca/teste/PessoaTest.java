@@ -1,8 +1,8 @@
-package cursoDeJava.exercicios.POO.rascunhos.fds.associacao.teste;
+package cursoDeJava.exercicios.POO.rascunhos.fds.heranca.teste;
 
-import cursoDeJava.exercicios.POO.rascunhos.fds.associacao.dominio.Endereco;
-import cursoDeJava.exercicios.POO.rascunhos.fds.associacao.dominio.Funcionario;
-import cursoDeJava.exercicios.POO.rascunhos.fds.associacao.dominio.Pessoa;
+import cursoDeJava.exercicios.POO.rascunhos.fds.heranca.dominio.Endereco;
+import cursoDeJava.exercicios.POO.rascunhos.fds.heranca.dominio.Funcionario;
+import cursoDeJava.exercicios.POO.rascunhos.fds.heranca.dominio.Pessoa;
 
 public class PessoaTest {
     public static void main(String[] args) {

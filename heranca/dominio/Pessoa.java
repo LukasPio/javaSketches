@@ -1,4 +1,6 @@
-package cursoDeJava.exercicios.POO.rascunhos.fds.associacao.dominio;
+package cursoDeJava.exercicios.POO.rascunhos.fds.heranca.dominio;
+
+import cursoDeJava.exercicios.POO.rascunhos.fds.heranca.dominio.Endereco;
 
 public class Pessoa {
     private String nome;

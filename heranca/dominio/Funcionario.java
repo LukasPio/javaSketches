@@ -1,4 +1,4 @@
-package cursoDeJava.exercicios.POO.rascunhos.fds.associacao.dominio;
+package cursoDeJava.exercicios.POO.rascunhos.fds.heranca.dominio;
 
 public class Funcionario extends Pessoa {
     private double salario;
