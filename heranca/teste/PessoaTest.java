@@ -10,17 +10,19 @@ public class PessoaTest {
         Endereco endereco = new Endereco();
         endereco.setRua("Rua Silvia");
         endereco.setCep("09571-300");
-        Pessoa pessoa = new Pessoa();
-        pessoa.setNome("Jorge Plino");
+        Pessoa pessoa = new Pessoa("Jorge");
         pessoa.setCpf("142.723.193-59");
         pessoa.setEndereco(endereco);
+        pessoa.imprime();
 
-        Funcionario funcionario = new Funcionario();
 
-        funcionario.setNome("Lucas");
+        Funcionario funcionario = new Funcionario("Lucas");
+
         funcionario.setCpf("125.247.729-35");
         funcionario.setEndereco(endereco);
         funcionario.setSalario(2055.23);
         funcionario.imprime();
+
+
     }
 }

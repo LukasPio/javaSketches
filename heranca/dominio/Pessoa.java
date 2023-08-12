@@ -3,9 +3,30 @@ package cursoDeJava.exercicios.POO.rascunhos.fds.heranca.dominio;
 import cursoDeJava.exercicios.POO.rascunhos.fds.heranca.dominio.Endereco;
 
 public class Pessoa {
-    private String nome;
+    protected String nome;
     private String cpf;
     private Endereco endereco;
+    static {
+        System.out.println("Dentro de um bloco de inicialização estático de pessoa");
+    }
+
+    {
+        System.out.println("Dentro do bloco de inicialização de pessoa 1");
+    }
+    {
+        System.out.println("Dentro do bloco de inicialização de pessoa 2");
+    }
+
+    public Pessoa(String nome) {
+        System.out.println("Dentro do construtor de pessoa");
+        this.nome = nome;
+    }
+
+    public Pessoa(String nome, String cpf, Endereco endereco) {
+        this(nome);
+        this.cpf = cpf;
+        this.endereco = endereco;
+    }
 
     public void imprime() {
 
