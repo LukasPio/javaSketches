@@ -5,16 +5,18 @@ public class diaDaSemanaTest {
 
         DiasDaSemanaClass segunda = new DiasDaSemanaClass(DiasDaSemana.SEGUNDA);
 
-        segunda.getDiasDaSemana().printDayDetails();
-        segunda.getDiasDaSemana().isUtilDay();
+        for (DiasDaSemana umDia : DiasDaSemana.values()) {
+            if (umDia.getDiaUtil() == true) {
 
-        System.out.println("========================================");
+                System.out.println(umDia.getNomeDoDia() + " é um dia útil");
 
-        for (DiasDaSemana dia : DiasDaSemana.values()) {
+            }
 
-            dia.printDayDetails();
-            System.out.println("==========");
+            else {
+                System.out.println(umDia.getNomeDoDia() + " é um final de semana");
+            }
 
         }
     }
 }
+

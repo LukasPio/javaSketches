@@ -1,4 +1,4 @@
-package cursoDeJava.exercicios.POO.rascunhos.fds;
+package cursoDeJava.exercicios.POO.rascunhos.fds.deFato;
 
 public class Anime1 {
     //Ordem de procedimentos após a criação de um objeto

@@ -1,4 +1,6 @@
-package cursoDeJava.exercicios.POO.rascunhos.fds;
+package cursoDeJava.exercicios.POO.rascunhos.fds.deFato;
+
+import cursoDeJava.exercicios.POO.rascunhos.fds.deFato.Anime1;
 
 public class Anime1Test {
     public static void main(String[] args) {
