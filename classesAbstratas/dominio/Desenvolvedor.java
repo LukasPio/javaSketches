@@ -12,4 +12,13 @@ public class Desenvolvedor extends Funcionario{
                 ", salario=" + salario +
                 '}';
     }
+
+    @Override
+    public void calcularBonus() {
+        this.salario *= 1.5;
+    }
+    @Override
+    public void imprime() {
+        System.out.println("Nome do cargo: Desenvolvedor, salário: " + this.salario);
+    }
 }

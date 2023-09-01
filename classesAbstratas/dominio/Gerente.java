@@ -1,6 +1,6 @@
 package cursoDeJava.exercicios.POO.rascunhos.fds.classesAbstratas.dominio;
 
-public final class Gerente extends Funcionario{
+public class Gerente extends Funcionario{
     public Gerente(String nome, double salario) {
         super(nome, salario);
     }
@@ -11,5 +11,14 @@ public final class Gerente extends Funcionario{
                 "nome='" + nome + '\'' +
                 ", salario=" + salario +
                 '}';
+    }
+    @Override
+    public void calcularBonus () {
+        this.salario *= 1.2;
+    }
+
+    @Override
+    public void imprime() {
+        System.out.println("Nome do cargo: Gerente, salário: " + this.salario);
     }
 }
