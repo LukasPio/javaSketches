@@ -11,7 +11,7 @@ import java.util.List;
 public class RepositorioTest {
     public static void main(String[] args) {
 
-        Repositorio repositorio = new RepositorioArquivo();
+        Repositorio repositorio = new RepositorioBancoDeDados();
         repositorio.salvar();
 
     }
