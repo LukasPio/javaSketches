@@ -1,5 +1,7 @@
 package cursoDeJava.exercicios.POO.rascunhos.fds.enumeracao.exercicioDiasDaSemana;
 
+import javax.swing.*;
+
 public class diaDaSemanaTest {
     public static void main(String[] args) {
 

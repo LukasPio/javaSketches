@@ -1,4 +1,4 @@
-package cursoDeJava.exercicios.POO.rascunhos.fds.classesUtilitarias.wrapper.test;
+package cursoDeJava.exercicios.POO.rascunhos.fds.wrapper.test;
 
 import java.util.List;
 
