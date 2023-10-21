@@ -6,7 +6,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-public class calendarTest01 {
+public class CalendarTest01 {
     public static void main(String[] args) {
         Calendar calendar = new GregorianCalendar();
         if (calendar.getFirstDayOfWeek() == Calendar.SUNDAY) {
